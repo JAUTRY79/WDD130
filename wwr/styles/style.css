@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<body>
-    <div id="content"> 
+
     div {
         max: width 1600px;
     }
@@ -22,12 +19,22 @@
     }
     #background {
         height: 725px;
+        background-color: lightgrey;
+    }
+    #content {
+        background-color: lightgrey;
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
     }
     body {
-        background-color: cornsilk;
+        
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
     }
     header {
-        background-color: gray;
+        background-color: grey;
     }
     nav a:hover {
         background-color: darkgreen;
@@ -38,11 +45,8 @@
     .book:hover, .join:hover {
         background-color: blue;
     }
-    #background {
-        background-color: darkslategrey;
-    }
     .msg {
-        background-color: darkgray;
+        background-color: rgb(122, 123, 120);
     }
     footer {
         background-color: darkolivegreen;
@@ -56,15 +60,15 @@
         color: black;
     }
     .home-title {
-        background-color: grey;
+        background-color: lightgray;
         color: black;
     }
     h4 {
-        background-color: cadetblue;
+        background-color: lightgray;
         color: black;
     }
     .book, .join {
-        background-color: grey;
+        background-color: rgb(203, 82, 30);
         color: black;
     }
     .book:hover, .join:hover {
@@ -72,23 +76,23 @@
         color: palegreen;
     }
     .msg h2 {
-        background-color: lemonchiffon;
+        background-color: darkgray;
         color: black;
     }
     .msg p {
-        background-color: darkgray);
+        background-color: darkgray;
         color: black;
     }
     footer {
-        background-color: royalblue;
+        background-color: darkgray;
         color: white;
     }
     footer a {
-        background-color: royalblue;
+        background-color: darkgray;
         color: white;
     }
     footer a:hover {
-        background-color: royalblue;
+        background-color: rgb(196, 200, 210);
         color: black;
     }
     .logo {
@@ -121,9 +125,3 @@
     footer p a:hover {
         text-decoration: underline;
     }    
-       
-        <header>
-    . . .
-        </footer>
-    </div>
-</body>
