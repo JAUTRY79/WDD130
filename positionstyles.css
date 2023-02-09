@@ -169,8 +169,8 @@
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   Display: grid;
-  grid-template-columns: repeat(6, minmax(auto, 10em));
-  grid-template-rows: repeat(6, minmax(auto, 10em));
+  grid-template-columns: repeat(5, minmax(auto, 10em));
+  grid-template-rows: repeat(5, minmax(auto, 10em));
 }
 .red6 {
   grid-column: 1/5;
