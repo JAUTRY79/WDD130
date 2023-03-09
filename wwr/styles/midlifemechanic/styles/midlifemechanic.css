@@ -1,0 +1,145 @@
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: grey;
+}
+nav a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 50px;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: azure;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.card-img,
+.mountains {
+    width: 100%;
+}
+footer {
+    background-color: darkolivegreen;
+}
+nav a {
+    background-color: dark grey;
+    color: azure;
+}
+nav a:hover {
+    background-color: palegreen;
+    color: black;
+}
+h4 {
+    font-family: serif;
+
+    color: azure;
+    margin: 0;
+}
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.msg {
+    background-color: #6f7364;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg h2 {
+    font-family: cursive;
+    background-color: rgb(169, 143, 143);
+    color: black;
+}
+.msg p {
+    background-color: rgb(169, 143, 143);
+    color: black;
+    line-height: .8em;
+    padding-bottom: 15px;
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkgray;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkgray;
+    color: white;
+}
+
+footer a:hover {
+    background-color: rgb(196, 200, 210);
+    color: black;
+}
+
+.logo {
+    width: 100px;
+    float: left;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#import-img {
+    width: 100%
+}
+
+
+
+
+footer a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.river-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rivers-card {
+    margin: 100px 2;
+    grid-template-columns: 1/1;
+    padding: 50px;
+}
+
+.camping-card {
+    margin: 100px 0;
+    grid-column: 2/2;
+    padding: 50px;
+}
+.book,
+.join {
+    font-family: fantasy;
+    font-size: 18px;
+    background-color: rgb(148, 192, 46);
+    color: black;
+    margin-top: 50px;
