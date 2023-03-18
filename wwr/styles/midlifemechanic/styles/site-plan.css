@@ -25,10 +25,6 @@ Fonts are separated by a | */
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
-
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
   max-width: 1200px;
   margin: 0 auto;
@@ -177,3 +173,57 @@ img {
     max-width:100%;
     height:auto;
 }
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) 
+  {.sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}}
+  .btn {
+    border: none; 
+    color: white;
+    padding: 14px 28px; 
+    cursor: pointer; 
+  }
+  
+  .excellent {background-color: #04AA6D;} 
+  .excellent:hover {background-color: #46a049;}
+  
+  .good {background-color: #2196F3;} 
+  .good:hover {background: #0b7dda;}
+  
+  .average {background-color: #ff9800;} 
+  .average:hover {background: #e68a00;}
+  
+  .fair {background-color: #f44336;} 
+  .fair:hover {background: #da190b;}
+  
+  .horrible {background-color: #e7e7e7; color: black;} 
+  .horrible:hover {background: #ddd;}
