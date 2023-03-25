@@ -12,13 +12,37 @@
         <img class="logo" src="https://cdn-icons-png.flaticon.com/512/2593/2593066.png" alt="Dry Oar Logo">
     </a>
     
-    <nav>
-        <h1>Mid-Life Mechanic, LLC</h1>
-    <h2>John Autry</h2>
-    <h2>WDD 130-01</h2>
-        <a href="wwr/styles/midlifemechanic/index.html">Home</a>
-        <a href="wwr/styles/midlifemechanic/pricesandservices.html">Price/Services</a>
-        <a href="wwr/styles/midlifemechanic/qatestimonial.html">Q&A/Testimonials</a>
+    <nav class="navbar">
+      <h1>Mid-Life Mechanic, LLC</h1>
+      <h2>John Autry</h2>
+      <h2>WDD 130-01</h2>
+      <!DOCTYPE html>
+      <html>
+
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      </head>
+
+      <body>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="pricesandservices.html">Prices/Services</a>
+          <a href="qatestimonial.html">Q&A/Testimonials</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+        </script>
+      </body>
+
+      </html>
       </nav>
       </header>
       <div id="import">
@@ -71,7 +95,7 @@
                 <p>      
       Joe E. This place is awesome! John the service manager was able to get me an appointment same day. They had the parts to fix my car and didn't charge me an arm and a leg. </p>
       Andrew O. I have driven pass this place a million times and always felt hesitant to bring my car in. But today I decided to take a change and I am glad that I did. Everyone is so welcoming and professional. My car runs better than it did when I drove it off of the lot!</p>
-      <a class='join' href="rivers.html">Click to Leave a Comment</a>
+      
                 </p>
                 </section>
     <img class="card-img"src="https://img.freepik.com/free-photo/man-with-mobile-broken-car_23-2148514930.jpg?size=626&ext=jpg&ga=GA1.2.914606958.1677119287&semt=ais"/>

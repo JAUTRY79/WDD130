@@ -4,6 +4,7 @@ header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: grey;
 }
+
 nav a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -11,6 +12,7 @@ nav a {
     text-decoration: none;
     padding: 50px;
 }
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 80%;
@@ -19,35 +21,43 @@ body {
     text-align: center;
     background-color: azure;
 }
+
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
 }
+
 .card-img,
 .mountains {
     width: 100%;
 }
+
 footer {
     background-color: darkolivegreen;
 }
+
 nav a {
     background-color: dark grey;
     color: azure;
 }
+
 nav a:hover {
     background-color: palegreen;
     color: black;
 }
+
 h4 {
     font-family: serif;
 
     color: azure;
     margin: 0;
 }
+
 #background {
     grid-column: 1/11;
     grid-row: 4/9;
 }
+
 .msg {
     background-color: #6f7364;
     padding: 35px;
@@ -55,11 +65,13 @@ h4 {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
 .msg h2 {
     font-family: cursive;
     background-color: rgb(169, 143, 143);
     color: black;
 }
+
 .msg p {
     background-color: rgb(169, 143, 143);
     color: black;
@@ -136,6 +148,7 @@ footer p a:hover {
     grid-column: 2/2;
     padding: 50px;
 }
+
 .book,
 .join {
     font-family: fantasy;
@@ -143,3 +156,97 @@ footer p a:hover {
     background-color: rgb(148, 192, 46);
     color: black;
     margin-top: 50px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.navbar{
+    padding-right: 200px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  .btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+  }
+  
+  .success {background-color: #04AA6D;} /* Green */
+  .success:hover {background-color: #46a049;}
+  
+  .info {background-color: #2196F3;} /* Blue */
+  .info:hover {background: #0b7dda;}
+  
+  .warning {background-color: #ff9800;} /* Orange */
+  .warning:hover {background: #e68a00;}
+  
+  .danger {background-color: #f44336;} /* Red */
+  .danger:hover {background: #da190b;}
+  
+  .default {background-color: #e7e7e7; color: black;} /* Gray */
+  .default:hover {background: #ddd;}
