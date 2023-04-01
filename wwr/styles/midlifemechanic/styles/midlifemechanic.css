@@ -1,12 +1,12 @@
 header {
     display: grid;
     grid-template-columns: 200px auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: grey;
+    font-family: 'rock salt';
+    background-color: #457b9d;
 }
 
 nav a {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'rock salt';
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
@@ -14,12 +14,12 @@ nav a {
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'roboto';
     max-width: 80%;
     margin: 0 auto;
     padding: 0;
     text-align: center;
-    background-color: azure;
+    background-color: #f1faee;
 }
 
 .card-img:hover {
@@ -37,17 +37,17 @@ footer {
 }
 
 nav a {
-    background-color: dark grey;
-    color: azure;
+    
+    color: #f1faee;
 }
 
 nav a:hover {
-    background-color: palegreen;
+    background-color: #1d3557;
     color: black;
 }
 
 h4 {
-    font-family: serif;
+    font-family: 'rock salt';
 
     color: azure;
     margin: 0;
@@ -59,11 +59,11 @@ h4 {
 }
 
 .msg {
-    background-color: #6f7364;
+    background-color: #457b9d;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #457b9d;
 }
 
 .msg h2 {
@@ -80,8 +80,8 @@ h4 {
 }
 
 footer {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: darkgray;
+    font-family: 'rock salt';
+    background-color: #1d3557;
     color: white;
     padding: 25px 50px;
     margin-top: 200px;
@@ -91,9 +91,9 @@ footer {
 }
 
 footer a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'rock salt';
     background-color: darkgray;
-    color: white;
+    color: #a8dadc;
 }
 
 footer a:hover {
@@ -138,8 +138,7 @@ footer p a:hover {
 }
 
 .rivers-card {
-    margin: 100px 2;
-    grid-template-columns: 1/1;
+    margin: 100px 2px;
     padding: 50px;
 }
 
@@ -151,10 +150,10 @@ footer p a:hover {
 
 .book,
 .join {
-    font-family: fantasy;
+    font-family: 'roboto';
     font-size: 18px;
-    background-color: rgb(148, 192, 46);
-    color: black;
+    background-color: #f1faee;
+    color: #e63946;
     margin-top: 50px;
 }
 
@@ -176,13 +175,13 @@ footer p a:hover {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #e63946;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #f1faee;
 }
 
 .sidenav .closebtn {
@@ -206,7 +205,7 @@ footer p a:hover {
     padding-right: 200px;
 }
 .accordion {
-    background-color: #eee;
+    background-color: #a8dadc;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -236,17 +235,17 @@ footer p a:hover {
     cursor: pointer; /* Add a pointer cursor on mouse-over */
   }
   
-  .success {background-color: #04AA6D;} /* Green */
+  .success {background-color: #04AA6D;} 
   .success:hover {background-color: #46a049;}
   
-  .info {background-color: #2196F3;} /* Blue */
+  .info {background-color: #457b9d;} 
   .info:hover {background: #0b7dda;}
   
-  .warning {background-color: #ff9800;} /* Orange */
+  .warning {background-color: #ff9800;} 
   .warning:hover {background: #e68a00;}
   
-  .danger {background-color: #f44336;} /* Red */
+  .danger {background-color: #e63946;} 
   .danger:hover {background: #da190b;}
   
-  .default {background-color: #e7e7e7; color: black;} /* Gray */
+  .default {background-color: #a8dadc; color: black;} 
   .default:hover {background: #ddd;}
